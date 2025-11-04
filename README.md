@@ -68,9 +68,9 @@ BlockVault/
     PRIVATE_KEY=<your_ganache_account_private_key>
     PORT=4000
     FRONTEND_ORIGIN=http://localhost:5173
-4. Deploy Smart Contract
-   node contract/deploy.js
-   node server.js
+4. -Deploy Smart Contract
+   -node contract/deploy.js
+   -node server.js
 
  # Frontend Supprt
  1. Install Dependencies
@@ -82,11 +82,11 @@ BlockVault/
     npm run dev
 
 # Running the full App
-  1.	Start Ganache (your local blockchain)
-	2.	Deploy contract → node contract/deploy.js
-	3.	Run backend → node server.js
-	4.	Run frontend → npm run dev
-	5.	Visit: http://localhost:5173
+1.	Start Ganache (your local blockchain)
+2.	Deploy contract → node contract/deploy.js
+3.	Run backend → node server.js
+4.	Run frontend → npm run dev
+5.	Visit: http://localhost:5173
 
 
   | Role | Description |
@@ -97,7 +97,7 @@ BlockVault/
 
 
 # Overflow of the Proejct
-  1.	Issuer uploads a document → Backend hashes it → Smart contract stores hash on blockchain
+	1.	Issuer uploads a document → Backend hashes it → Smart contract stores hash on blockchain
 	2.	System emails the user with a QR link
 	3.	Verifier scans QR or uploads doc → hash is recomputed and matched
 	4.	If hashes match → ✅ Authentic | else ❌ Tampered
