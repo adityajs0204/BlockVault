@@ -88,10 +88,13 @@ BlockVault/
 	4.	Run frontend → npm run dev
 	5.	Visit: http://localhost:5173
 
-# Role-Description
-  Issuer-Uploads & issues blockchain-verified documents
-  Verifier-Uploads and checks authenticity of documents
-  User-Views and downloads their verified documents
+
+  | Role | Description |
+|-------|-------------|
+| **Issuer** | Uploads & issues blockchain-verified documents |
+| **Backend** | Uploads and checks authenticity of documents |
+| **Blockchain** | Views and downloads their verified documents |
+
 
 # Overflow of the Proejct
   1.	Issuer uploads a document → Backend hashes it → Smart contract stores hash on blockchain
